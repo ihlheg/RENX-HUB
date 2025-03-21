@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "RENX-HUB v0.0.2",
+         Title = "RENX-HUB v0.0.6",
          Animation = "RENX"
          },
         Key = {
@@ -131,6 +131,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts
   }) AddButton(Tab1o, {
      Name = "Aim-Lock",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/refs/heads/main/Examples/AimLock.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-Script/refs/heads/main/Aimbot%20Script.lua"))()
  end
   })
