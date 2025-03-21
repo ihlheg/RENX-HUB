@@ -128,9 +128,4 @@ end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua"))()
  end
-  }) AddButton(Tab1o, {
-     Name = "Aim-Lock",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ihlheg/Aim/refs/heads/main/Aim"))()
- end
   })
