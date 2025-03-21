@@ -118,7 +118,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
     Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pa1nx/RRCreations/main/MurdererMystery2'))()
  end
-  })AddButton(Tab2o, {
+  }) AddButton(Tab2o, {
      Name = "Forsaken",
     Callback = function()
 if getgenv then
@@ -127,5 +127,10 @@ if getgenv then
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua"))()
+ end
+  }) AddButton(Tab1o, {
+     Name = "Aim-Lock",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/refs/heads/main/Examples/AimLock.lua"))()
  end
   })
