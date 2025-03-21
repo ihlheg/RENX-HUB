@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "RENX-HUB v0.0.1",
+         Title = "RENX-HUB v0.0.2",
          Animation = "RENX"
          },
         Key = {
@@ -64,7 +64,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main
   })  AddButton(Tab2o, {
      Name = "Dead-Rails",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/Dead-Rails-SpiderXHub-Script/refs/heads/main/SpiderXHub%202.0.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/V2.0.9/refs/heads/main/Dead%20Rails%20No%20key%20system%20V2.0.9.txt"))()
   end
   })  AddButton(Tab1o, {
      Name = "Zoom-Screen",
@@ -93,4 +93,39 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-o
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
   end
+  })  AddButton(Tab2o, {
+     Name = "Blue-Lock",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+  end
+  }) AddButton(Tab2o, {
+     Name = "Blade-Ball",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SpiderScriptRB/Blade-ball-OP-/refs/heads/main/Protected_3291800768430903.txt'))()
+ end
+  }) AddButton(Tab2o, {
+     Name = "Build-A-Boat",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealAsu/BABFT/refs/heads/main/Jan25_Source.lua'))()
+ end
+  }) AddButton(Tab1o, {
+     Name = "Ghost-Hub",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+ end
+  }) AddButton(Tab2o, {
+     Name = "Muder-Mystery-2",
+    Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pa1nx/RRCreations/main/MurdererMystery2'))()
+ end
+  })AddButton(Tab2o, {
+     Name = "Forsaken",
+    Callback = function()
+if getgenv then
+    getgenv().DebugNotifications = "false"
+    getgenv().TrackMePlease = "true"
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua"))()
+ end
   })
