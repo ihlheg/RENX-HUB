@@ -61,12 +61,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-A
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
-  })  AddButton(Tab2o, {
-     Name = "Dead-Rails",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/V2.0.9/refs/heads/main/Dead%20Rails%20No%20key%20system%20V2.0.9.txt"))()
-  end
-  })  AddButton(Tab1o, {
+   })  AddButton(Tab1o, {
      Name = "Zoom-Screen",
     Callback = function()
 game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = 99999
@@ -96,7 +91,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battle
   })  AddButton(Tab2o, {
      Name = "Blue-Lock",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code"))()
+
   end
   }) AddButton(Tab2o, {
      Name = "Blade-Ball",
@@ -127,13 +122,8 @@ if getgenv then
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ivannetta/ShitScripts/main/forsaken.lua"))()
- end
-  }) AddButton(Tab2o, {
-     Name = "Rivals(AimBot)",
-    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/rybowe/rybowescripts/main/release.lua'))()
 end
-})  AddButton(Tab1o, {
+ })  AddButton(Tab1o, {
      Name = "Changer-Speed",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrScripterrFr/Speed-Changer/main/Speed%20Changer"))()
@@ -148,4 +138,14 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 	end
 end)
  end
-  })
+  }) AddButton(Tab2o, {
+     Name = "Blue-Lock",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/CONTROL-SCRIPTT/refs/heads/main/CONTROL"))()
+end
+}) AddButton(Tab2o, {
+     Name = "Dead-Rails(Farm Bond)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
+end
+})
