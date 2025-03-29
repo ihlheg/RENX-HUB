@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "RENX-HUB v1.0.3",
+         Title = "RENX-HUB v1.0.6",
          Animation = "RENX"
          },
         Key = {
@@ -134,7 +134,7 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 end)
  end
   }) AddButton(Tab2o, {
-     Name = "Blue-Lock",
+     Name = "Blue-Lock(Key:thx)",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RedJDark/CONTROL-SCRIPTT/refs/heads/main/CONTROL"))()
 end
@@ -144,8 +144,13 @@ end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
 end
 }) AddButton(Tab2o, {
+     Name = "Dead-Rails(Farm Win)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
+end
+}) AddButton(Tab2o, {
      Name = "Dead-Rails",
     Callback = function()
-loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua'))()
 end
 })
